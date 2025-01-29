@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace dayy3
+{
+    public class Employee
+    {
+        public int empId;
+        public string empnamee;
+
+        public void Display()
+        {
+            Console.WriteLine($"EmployeeId:{empId} \n Employeename: {empnamee}");
+        }
+    }
+}
+
+
